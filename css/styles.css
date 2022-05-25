@@ -26,7 +26,6 @@ h6 {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
 }
 
@@ -314,4 +313,67 @@ img {
   border: 1px solid #ffffff;
   top: 178%;
   left: 74%;
+}
+
+/*--------------------------------------- PORTFOLIO ---------------------*/
+
+.portfolio-box {
+  display: flex;
+}
+
+.portfolio-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1040px;
+  height: 600px;
+  left: 880px;
+  top: 1664px;
+
+  background: #000000;
+}
+
+.portfolio-right__tittle {
+  padding-top: 108px;
+  margin-bottom: 80px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.portfolio-right__text {
+  margin-bottom: 73px;
+  width: 471px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.portfolio-right__button {
+  padding: 12px 28px;
+  background: transparent;
+  border: 1px solid #ffffff;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
