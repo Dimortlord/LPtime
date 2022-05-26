@@ -373,6 +373,17 @@ img {
   }
 }
 
+.portolio-left {
+  background-color: #000000;
+  background-image: url(../image/jacketnew.png);
+}
+
+@media screen and (min-width: 1110px) {
+  .portolio-left {
+    width: 880px;
+  }
+}
+
 .portfolio-right {
   display: flex;
   flex-direction: column;
@@ -400,6 +411,12 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (min-width: 1110px) {
+  .portfolio-right__tittle {
+    margin-bottom: 80px;
+  }
 }
 
 .portfolio-right__text {
@@ -438,6 +455,17 @@ img {
 @media screen and (min-width: 1110px) {
   .portfolio-right__button {
     padding: 12px 28px;
+    font-size: 16px;
+  }
+}
+
+.portolio-left__photo {
+  width: 320px;
+}
+
+@media screen and (min-width: 480px) {
+  .portolio-left__photo {
+    width: 480px;
   }
 }
 
@@ -876,6 +904,7 @@ img {
 
 @media screen and (min-width: 1110px) {
   .collection-first__list {
+    flex-direction: row;
     display: flex;
     justify-content: center;
   }
