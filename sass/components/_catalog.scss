@@ -1,0 +1,127 @@
+.catalog {
+  background: #000000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    padding-top: 120px;
+    padding-bottom: 110px;
+  }
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    display: grid;
+    grid-template-columns: 235px 235px 235px 235px;
+    justify-items: start;
+    justify-content: center;
+  }
+}
+
+.catalog-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 480px) {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    margin-right: 23px;
+    margin-bottom: 40px;
+  }
+}
+
+.catalog-list__item:last-child {
+  margin-right: 0px;
+}
+
+.catalog-title {
+  position: relative;
+  margin-bottom: 50px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    margin-bottom: 121px;
+    font-size: 36px;
+  }
+}
+
+.catalog-title::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  border: 1px solid #ffffff;
+  top: 150%;
+  left: 38%;
+}
+
+.catalog-list__cards {
+  max-width: 260px;
+  margin-bottom: 25px;
+
+  background: #191b1c;
+}
+
+.catalog-list__photo {
+  padding: 55px 22px 56px 23px;
+}
+
+.catalog-list__tittle-card {
+  padding-bottom: 10px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.catalog-list__text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #d0d0d0;
+}
