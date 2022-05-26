@@ -34,6 +34,80 @@ img {
   margin-right: auto;
 }
 
+.up-line {
+  padding: 14px 14px;
+  background: #000000;
+  display: flex;
+}
+
+.up-line__list-first {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 406px;
+  margin-right: 595px;
+}
+
+.up-line__item {
+  margin-right: 30px;
+}
+
+.up-line__link {
+  display: flex;
+  align-items: center;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #969696;
+}
+
+.up-line__icon {
+  margin-right: 16px;
+}
+
+.up-line__work {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #969696;
+}
+
+.up-line__time {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #969696;
+}
+
+.up-line__list-secondary {
+  display: flex;
+}
+
+.up-line__registration {
+  display: flex;
+  align-items: center;
+
+  margin-left: 5px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  text-align: right;
+
+  color: #969696;
+}
+
 .header-nav {
   background-color: #0f0f0f;
   display: flex;
@@ -376,4 +450,276 @@ img {
   text-transform: uppercase;
 
   color: #ffffff;
+}
+
+/*------------------------------------- Catalog- -----------------------*/
+
+.catalog {
+  background: #000000;
+  padding-top: 120px;
+  padding-bottom: 110px;
+}
+
+.catalog-list {
+  display: grid;
+  grid-template-columns: 235px 235px 235px 235px;
+  justify-items: start;
+  justify-content: center;
+}
+
+.catalog-list__item {
+  margin-right: 23px;
+  margin-bottom: 40px;
+}
+
+.catalog-list__item:last-child {
+  margin-right: 0px;
+}
+
+.catalog-title {
+  margin-bottom: 121px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.catalog-title::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  border: 1px solid #ffffff;
+}
+
+.catalog-list__cards {
+  max-width: 260px;
+  margin-bottom: 25px;
+
+  background: #191b1c;
+}
+
+.catalog-list__photo {
+  padding: 55px 22px 56px 23px;
+}
+
+.catalog-list__tittle-card {
+  padding-bottom: 10px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.catalog-list__text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #d0d0d0;
+}
+
+/*----------------------------- Our-Brands----------------------------*/
+
+.our-brands {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background: #0f0f0f;
+}
+
+.our-brands__title {
+  margin-bottom: 80px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.our-brands::before {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 0px;
+  left: 900px;
+  top: 3701px;
+
+  border: 1px solid #ffffff;
+}
+
+.our-brands__list {
+  display: flex;
+  justify-content: center;
+}
+
+.our-brands__item {
+  margin-right: 30px;
+}
+
+/*------------------------------------- FOOTER _________________*/
+
+.footer {
+  background-image: url(../image/footer.png);
+  padding-top: 80px;
+  padding-bottom: 101px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-information__title {
+  margin-bottom: 40px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-information__text {
+  margin-right: 31px;
+
+  width: 350px;
+  height: 147px;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+
+.footer-category {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-category__title {
+  margin-bottom: 40px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.footer-category-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-category-list__item {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-category-list__buttons {
+  padding: 10px 20px 10px 20px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  background: #0f0f0f;
+  border: 0px;
+
+  color: #d0d0d0;
+}
+
+.footer-form__tittle {
+  margin-bottom: 40px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-form__text {
+  margin-bottom: 37px;
+  max-width: 350px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+
+.footer-form__label {
+  display: flex;
+}
+
+.footer-form__input {
+  width: 210px;
+  height: 42px;
+
+  padding-left: 10px;
+
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.footer-form__btn {
+  width: 140px;
+  height: 41px;
+
+  background: #0f0f0f;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  letter-spacing: 0.05em;
+
+  border: 0px;
+  color: #ffffff;
+}
+
+.footer-form__input::placeholder {
+  color: white;
+  margin-right: 10px;
 }
