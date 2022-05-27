@@ -52,6 +52,7 @@
 }
 
 .portfolio-right__tittle {
+  margin-bottom: 40px;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
@@ -69,8 +70,13 @@
   }
 
   @media screen and (min-width: 1110px) {
-    margin-bottom: 80px;
   }
+}
+
+.portfolio-right__line {
+  width: 120px;
+  border: 1px solid #ffffff;
+  margin-bottom: 40px;
 }
 
 .portfolio-right__text {

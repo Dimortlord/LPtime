@@ -80,18 +80,15 @@
   }
 
   @media screen and (min-width: 1110px) {
-    margin-bottom: 121px;
+    margin-bottom: 40px;
     font-size: 36px;
   }
 }
 
-.catalog-title::after {
-  content: "";
-  position: absolute;
+.catalog-title__line {
   width: 120px;
   border: 1px solid #ffffff;
-  top: 150%;
-  left: 38%;
+  margin-bottom: 81px;
 }
 
 .catalog-list__cards {

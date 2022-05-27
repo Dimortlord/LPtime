@@ -16,7 +16,7 @@
 }
 
 .our-brands__title {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 
   font-family: "Playfair Display";
   font-style: normal;
@@ -36,19 +36,14 @@
   }
 
   @media screen and (min-width: 1110px) {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
 }
 
-.our-brands::before {
-  position: absolute;
-  content: "";
+.our-brands__line {
   width: 120px;
-  height: 0px;
-  left: 900px;
-  top: 3701px;
-
   border: 1px solid #ffffff;
+  margin-bottom: 40px;
 }
 
 .our-brands__list {
