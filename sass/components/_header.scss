@@ -124,16 +124,28 @@
   }
 }
 
-.header-nav__logo {
+.navbar-brand {
   font-family: "Post No Bills Jaffna";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
   color: #ffffff;
-  margin-right: 0px;
-  margin-left: 0px;
+  padding-left: 20px;
 
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-left: 100px;
+    margin-right: 264px;
+  }
+
+  @media screen and (min-width: 1110px) {
+  }
+}
+
+.navbar-nav {
   @media screen and (min-width: 480px) {
   }
 
@@ -141,6 +153,7 @@
   }
 
   @media screen and (min-width: 1110px) {
+    margin-right: 62px;
   }
 }
 
@@ -148,7 +161,7 @@
   margin-right: 40px;
 }
 
-.site-nav__link {
+.nav-link {
   padding: 0;
   font-family: "PT Sans";
   font-style: normal;
@@ -197,8 +210,25 @@
 
 .contacts-list {
   display: flex;
+  justify-content: center;
 }
 
 .contacts-list__icon {
-  margin-right: 45px;
+  margin-right: 0px;
+  fill: #ffffff;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    margin-right: 45px;
+  }
+}
+
+.contacts-list__icon:hover,
+.contacts-list__icon:active {
+  fill: #969696;
 }

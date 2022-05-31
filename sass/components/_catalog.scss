@@ -15,6 +15,13 @@
   }
 }
 
+.catalog_control {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
 .catalog-list {
   display: flex;
   flex-wrap: wrap;
