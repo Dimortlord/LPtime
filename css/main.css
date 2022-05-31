@@ -60,10 +60,12 @@ img {
   justify-content: center;
   align-content: stretch;
   flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
   .up-line {
+    flex-direction: row;
     padding-left: 0px;
   }
 }
@@ -87,10 +89,12 @@ img {
 }
 
 .up-line__list-first {
+  visibility: hidden;
   display: flex;
   flex-direction: column;
   margin-right: 0px;
   margin-left: 0px;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 480px) {
@@ -101,6 +105,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .up-line__list-first {
+    visibility: visible;
     margin-right: 0px;
     margin-right: 0px;
   }
@@ -155,6 +160,8 @@ img {
 
 .up-line__list-secondary {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .up-line__registration {
@@ -190,7 +197,7 @@ img {
 }
 
 .navbar-brand {
-  font-family: "Post No Bills Jaffna", sans-serif;
+  font-family: "Post No Bills Jaffna";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -743,6 +750,7 @@ img {
   background-image: url(../image/footer.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding-top: 80px;
   padding-bottom: 101px;
 }
