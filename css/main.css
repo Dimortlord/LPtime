@@ -588,6 +588,12 @@ img {
   justify-content: center;
 }
 
+@media screen and (min-width: 480px) {
+  .catalog-list {
+    flex-direction: column;
+  }
+}
+
 @media screen and (min-width: 1110px) {
   .catalog-list {
     display: grid;
