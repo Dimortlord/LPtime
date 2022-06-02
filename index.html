@@ -8,6 +8,11 @@
     <title>LPshop</title>
 
     <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+    <link
       href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap"
       rel="stylesheet"
     />
@@ -75,8 +80,14 @@
           <a class="nav-link text-white" href="#" >
             НАСТРОЙКИ
           </a>
-         
         </li>
+        
+         <li class="nav-item dropdown">
+              <p class="nav-item__text">Работаем 7 дней в неделю</p>
+            </li>
+            <li class="nav-item dropdown">
+              <p class="nav-item__text">9:00 - 18:00</p>
+            </li>
        
       </ul>
       <ul class="contacts-list">
@@ -215,7 +226,122 @@
         <h2 class="catalog-title">НОВЫЕ ПОСТУПЛЕНИЯ</h2>
         <hr class="catalog-title__line">
         </div>
-        <ul class="catalog-list">
+        <div class="swiper  ">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper container">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="swiper-slide-box"><img
+                        class="catalog-list__photo"
+                        src="./image/cloak.png"
+                        alt="cloak"
+                        width="215"
+                        height="214"
+                        loading="lazy"
+                      /></div>
+                    <h3 class="catalog-list__tittle-card">Louis XVI ATHOS</h3>
+                    <p class="catalog-list__text">165 000 руб.</p></div>
+           <div class="swiper-slide">
+              <div class="swiper-slide-box"><img
+                        class="catalog-list__photo"
+                        src="./image/cloak.png"
+                        alt="cloak"
+                        width="215"
+                        height="214"
+                        loading="lazy"
+                      /></div>
+                    <h3 class="catalog-list__tittle-card">Louis XVI ATHOS</h3>
+                    <p class="catalog-list__text">165 000 руб.</p></div>
+                    <div class="swiper-slide">
+              <div class="swiper-slide-box"><img
+                        class="catalog-list__photo"
+                        src="./image/cloak.png"
+                        alt="cloak"
+                        width="215"
+                        height="214"
+                        loading="lazy"
+                      /></div>
+                    <h3 class="catalog-list__tittle-card">Louis XVI ATHOS</h3>
+                    <p class="catalog-list__text">165 000 руб.</p></div>
+                    <div class="swiper-slide">
+              <div class="swiper-slide-box"><img
+                        class="catalog-list__photo"
+                        src="./image/cloak.png"
+                        alt="cloak"
+                        width="215"
+                        height="214"
+                        loading="lazy"
+                      /></div>
+                    <h3 class="catalog-list__tittle-card">Louis XVI ATHOS</h3>
+                    <p class="catalog-list__text">165 000 руб.</p></div>
+                    <div class="swiper-slide">
+              <div class="swiper-slide-box"><img
+                        class="catalog-list__photo"
+                        src="./image/cloak.png"
+                        alt="cloak"
+                        width="215"
+                        height="214"
+                        loading="lazy"
+                      /></div>
+                    <h3 class="catalog-list__tittle-card">Louis XVI ATHOS</h3>
+                    <p class="catalog-list__text">165 000 руб.</p></div>
+                    <div class="swiper-slide">
+              <div class="swiper-slide-box"><img
+                        class="catalog-list__photo"
+                        src="./image/cloak.png"
+                        alt="cloak"
+                        width="215"
+                        height="214"
+                        loading="lazy"
+                      /></div>
+                    <h3 class="catalog-list__tittle-card">Louis XVI ATHOS</h3>
+                    <p class="catalog-list__text">165 000 руб.</p></div>
+                    <div class="swiper-slide">
+              <div class="swiper-slide-box"><img
+                        class="catalog-list__photo"
+                        src="./image/cloak.png"
+                        alt="cloak"
+                        width="215"
+                        height="214"
+                        loading="lazy"
+                      /></div>
+                    <h3 class="catalog-list__tittle-card">Louis XVI ATHOS</h3>
+                    <p class="catalog-list__text">165 000 руб.</p></div>
+                    <div class="swiper-slide">
+              <div class="swiper-slide-box"><img
+                        class="catalog-list__photo"
+                        src="./image/cloak.png"
+                        alt="cloak"
+                        width="215"
+                        height="214"
+                        loading="lazy"
+                      /></div>
+                    <h3 class="catalog-list__tittle-card">Louis XVI ATHOS</h3>
+                    <p class="catalog-list__text">165 000 руб.</p></div>
+                    <div class="swiper-slide">
+              <div class="swiper-slide-box"><img
+                        class="catalog-list__photo"
+                        src="./image/cloak.png"
+                        alt="cloak"
+                        width="215"
+                        height="214"
+                        loading="lazy"
+                      /></div>
+                    <h3 class="catalog-list__tittle-card">Louis XVI ATHOS</h3>
+                    <p class="catalog-list__text">165 000 руб.</p></div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <!-- <ul class="catalog-list">
           <li class="catalog-list__item">
             <div class="catalog-list__cards">
               <img
@@ -328,7 +454,7 @@
             <h3 class="catalog-list__tittle-card">Louis XVI ATHOS</h3>
             <p class="catalog-list__text">165 000 руб.</p>
           </li>
-        </ul>
+        </ul> -->
         </div>
       </section>
       <section class="our-brands">
@@ -438,6 +564,10 @@
       </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+<script src="/js/script.js"></script>  
+</body>
+
 </html>
